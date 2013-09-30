@@ -1,0 +1,28 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Definitions.cs" Line="29" Column="4" />
+      <File FileName="Assets/Scripts/Manager.cs" Line="370" Column="27" />
+      <File FileName="Assets/Scripts/Score.cs" Line="98" Column="1" />
+      <File FileName="Assets/Scripts/MovingScore.cs" Line="16" Column="4" />
+      <File FileName="Assets/Scripts/Cube.cs" Line="35" Column="15" />
+      <File FileName="Assets/Scripts/Bullet.cs" Line="4" Column="14" />
+      <File FileName="Assets/Scripts/Berry.cs" Line="23" Column="84" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="38" Column="57" />
+    </Files>
+    <Pads>
+      <Pad Id="ClassPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Bullet" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
