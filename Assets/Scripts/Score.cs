@@ -107,7 +107,14 @@ public class Score : MonoBehaviour {
 		case Managing.EnemyLifeProgressBar:
 			tk2dUIProgressBar lifeBar = gameObject.GetComponent<tk2dUIProgressBar>();
 			GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
-			lifeBar.Value = (float)enemy.GetComponent<Enemy>().Life / (float)enemy.GetComponent<Enemy>().totalLife;
+			if (enemy == null)
+			{
+				return;
+			}
+			else
+			{
+				lifeBar.Value = (float)enemy.GetComponent<Enemy>().Life / (float)enemy.GetComponent<Enemy>().totalLife;
+			}
 			break;
 			
 		case Managing.TimeCount:

@@ -6,7 +6,13 @@ public class Manager: MonoBehaviour {
 	
 	static private bool gameEnded = false;
 	static private bool generateSpecialRandom = false;
+	
+	// Whether generate a new rabbit cube.
+	static private bool generateSpecialRabbit = false;
+	// The column that generates rabbit cube.
+	private int specialRabbitColumn = -1;
 	private string specialType = "";
+	
 	private bool initialized    = false;
 	private int score = 0;
 	static private int prepareScore = 0;
@@ -14,6 +20,10 @@ public class Manager: MonoBehaviour {
 	
 	private int columns = 7;
 	private int rows = 6;
+	
+	private int currentEnemyLevel = 1;
+	private Vector3 enemyPosition;
+	private Vector3 rabbitPosition;
 	
 	private CubeDefine[,] cubeUsing = new CubeDefine[7, 6];
 	private List<Vector2> selectedCubes = new List<Vector2>();
@@ -24,6 +34,8 @@ public class Manager: MonoBehaviour {
 	static public Manager Instance;
 	public tk2dClippedSprite cubeSprite;
 	public tk2dClippedSprite bulletSprite;
+	public tk2dClippedSprite enemySprite;
+	public tk2dClippedSprite rabbitSprite;
 	public tk2dSprite berrySprite;
 	public tk2dTextMesh movingScore;
 	
@@ -47,6 +59,17 @@ public class Manager: MonoBehaviour {
 		}
 	}
 	
+	public int CurrentEnemyLevel
+	{
+		get
+		{
+			return currentEnemyLevel;
+		}
+		set
+		{
+			currentEnemyLevel = value;
+		}
+	}
 	// Use this for initialization
 	void Awake () 
 	{
@@ -55,6 +78,13 @@ public class Manager: MonoBehaviour {
 	
 	void Start() 
 	{
+		generateSpecialRabbit = true;
+		specialRabbitColumn = Random.Range(0, columns);
+		enemyPosition = GameObject.FindGameObjectWithTag("Enemy").transform.position;
+		rabbitPosition  = GameObject.FindGameObjectWithTag("Rabbit").transform.position;
+		
+		// GameObject.FindGameObjectWithTag("Rabbit").GetComponent<Rabbit>().RushToEnemy();
+		// GameObject.FindGameObjectWithTag("Bullet").GetComponent<Bullet>().SetDestination(enemyPosition);
 		StartCoroutine(MainLoop());
 	}
 	
@@ -68,7 +98,10 @@ public class Manager: MonoBehaviour {
 				StartCoroutine(InitialCubes(i));
 				StartCoroutine(MoveCubes(i));
 				StartCoroutine(NewCubes(i));
+				StartCoroutine(SuperRabbit(i));
 			}
+			StartCoroutine(GenerateNewEnemy());
+			StartCoroutine(GenerateNewRabbit());
 			yield return null;
 		}
 		yield break;
@@ -84,11 +117,19 @@ public class Manager: MonoBehaviour {
 				CubeDefine cube = new CubeDefine();
 				string cubeType;
 				tk2dClippedSprite sprite;
-				
 				sprite = Instantiate(cubeSprite, Vector3.zero , Quaternion.identity) as tk2dClippedSprite;
-				CubeType.normalType.TryGetValue(Random.Range(1, 6), out cubeType);
-				sprite.SetSprite(cubeType + "_normal");
 				
+				if (current_column == specialRabbitColumn && current_row == rows - 1)
+				{
+					cubeType = "special_rabbit";
+					sprite.SetSprite(cubeType);
+					generateSpecialRabbit = false;
+				}
+				else
+				{
+					CubeType.normalType.TryGetValue(Random.Range(1, 6), out cubeType);
+					sprite.SetSprite(cubeType + "_normal");
+				}
 				cube.CubeObject = sprite.gameObject;
 				cube.Type = cubeType;
 				cube.cubeScript.SetPosition(current_column, current_row);
@@ -152,11 +193,20 @@ public class Manager: MonoBehaviour {
 					CubeDefine cube = new CubeDefine();
 					string cubeType;
 					tk2dClippedSprite sprite;
-					
 					sprite = Instantiate(cubeSprite, Vector3.zero , Quaternion.identity) as tk2dClippedSprite;
-					CubeType.normalType.TryGetValue(Random.Range(1, 6), out cubeType);
-					sprite.SetSprite(cubeType + "_normal");
-					cube.Type = cubeType;
+					if (generateSpecialRabbit && specialRabbitColumn >= 0 && (current_row == rows - 1))
+					{
+						cubeType = "special_rabbit";
+						cube.Type = "special_rabbit";
+						generateSpecialRabbit = false;
+					}
+					else
+					{
+						CubeType.normalType.TryGetValue(Random.Range(1, 6), out cubeType);
+						cube.Type = cubeType;
+						cubeType = cubeType + "_normal";
+					}
+					sprite.SetSprite(cubeType);
 					cube.CubeObject = sprite.gameObject;
 					cube.cubeScript.SetPosition(current_column, current_row);
 					cube.cubeScript.MoveTo(current_column, current_row);
@@ -169,6 +219,43 @@ public class Manager: MonoBehaviour {
 		{
 			yield break;
 		}
+	}
+	
+	private IEnumerator SuperRabbit(int current_column)
+	{
+		// Rabbit reaches the bottom
+		if (cubeUsing[current_column, 0].Type.CompareTo("special_rabbit") == 0)
+		{
+			GameObject rabbitObject = GameObject.FindGameObjectWithTag("Rabbit");
+			Rabbit rabbit = rabbitObject.GetComponent<Rabbit>();
+			rabbit.RushToEnemy();
+			Destroy(cubeUsing[current_column, 0].cubeObject);
+			cubeUsing[current_column, 0] = null;
+			generateSpecialRabbit = true;
+			specialRabbitColumn = Random.Range(0, columns);
+		}
+		yield break;
+	}
+	
+	private IEnumerator GenerateNewEnemy()
+	{
+		GameObject enemyObject = GameObject.FindGameObjectWithTag("Enemy");
+		if (enemyObject == null)
+		{
+			tk2dClippedSprite sprite =  Instantiate(enemySprite, enemyPosition, Quaternion.identity) as tk2dClippedSprite;
+			sprite.SetSprite("enemy" + currentEnemyLevel);
+		}
+		yield break;
+	}
+	
+	private IEnumerator GenerateNewRabbit()
+	{
+		GameObject rabbitObject = GameObject.FindGameObjectWithTag("Rabbit");
+		if (rabbitObject == null)
+		{
+			Instantiate(rabbitSprite, rabbitPosition, Quaternion.identity);
+		}
+		yield break;	
 	}
 	
 	// Update is called once per frame
@@ -300,7 +387,6 @@ public class Manager: MonoBehaviour {
 	private void SpawnBullet()
 	{
 		List<Vector2>.Enumerator e = selectedCubes.GetEnumerator();
-		Vector3 enemyPosition = GameObject.FindGameObjectWithTag("Enemy").transform.position;
 		int i = 0;
 		while (e.MoveNext())
 		{
@@ -391,9 +477,12 @@ public class Manager: MonoBehaviour {
 		{
 			foreach (Vector2 selected in fireCube)
 			{
-				if ((int)selected.x >= 0 && (int)selected.x < columns && (int)selected.y >=0 && (int)selected.y <= rows)
+				if ((int)selected.x >= 0 && (int)selected.x < columns && (int)selected.y >=0 && (int)selected.y < rows)
 				{
-					selectedCubes.Add(selected);
+					if (cubeUsing[(int)selected.x, (int)selected.y].Type.CompareTo("special_rabbit") != 0)
+					{
+						selectedCubes.Add(selected);
+					}
 				}
 			}
 		}

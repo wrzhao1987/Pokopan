@@ -1,0 +1,29 @@
+//
+// Prefix header for all source files of the 'iPhone-target2' target in the 'iPhone-target2' project
+//
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+void UnitySendMessage(const char* obj, const char* method, const char* msg);
+#ifdef __cplusplus
+}
+#endif
+
+#define printf_console printf
+
+#define IPHONE_TRAMPOLINE 1
+
+// Warning: in the future we will switch to auto-generate special file with this define (and maybe some others)
+// so please do not search for this line in your scripts 8)
+// Use it like MSC_VER macro: if you want some code to be in 4.4.1 and later do #if UNITY_VERSION >= 441
+#define UNITY_VERSION 421
+
+// helpers for known unity versions
+#define UNITY_4_2_0 420
+#define UNITY_4_2_1 421

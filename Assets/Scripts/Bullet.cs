@@ -13,13 +13,15 @@ public class Bullet : MonoBehaviour
 	void Start () 
 	{
 		m_transform = this.transform;
-		GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
-		destination = enemy.transform.position;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
+		if (GameObject.FindGameObjectWithTag("Enemy") == null)
+		{
+			Destroy(this.gameObject);
+		}
 		if (destination != Vector3.zero)
 		{
 			Vector3 velocity = destination - m_transform.position;
@@ -28,7 +30,6 @@ public class Bullet : MonoBehaviour
 			accer += 0.3f;
 			m_transform.Rotate(Vector3.forward, Time.deltaTime * 500);
 		}
-		
 	}
 	
 	public void SetDestination(Vector3 enemyPosition)
