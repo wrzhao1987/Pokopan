@@ -38,6 +38,7 @@ public class Manager: MonoBehaviour {
 	public tk2dClippedSprite rabbitSprite;
 	public tk2dSprite berrySprite;
 	public tk2dTextMesh movingScore;
+	public GameObject destroyCubeEffect;
 	
 	public Camera gameCam;
 	
@@ -211,6 +212,7 @@ public class Manager: MonoBehaviour {
 					cube.cubeScript.SetPosition(current_column, current_row);
 					cube.cubeScript.MoveTo(current_column, current_row);
 					cubeUsing[current_column, current_row] = cube;
+					
 				}
 			}
 			yield return null;
@@ -243,6 +245,10 @@ public class Manager: MonoBehaviour {
 		if (enemyObject == null)
 		{
 			tk2dClippedSprite sprite =  Instantiate(enemySprite, enemyPosition, Quaternion.identity) as tk2dClippedSprite;
+			if (currentEnemyLevel > 2)
+			{
+				currentEnemyLevel = 1;
+			}
 			sprite.SetSprite("enemy" + currentEnemyLevel);
 		}
 		yield break;
@@ -479,7 +485,8 @@ public class Manager: MonoBehaviour {
 			{
 				if ((int)selected.x >= 0 && (int)selected.x < columns && (int)selected.y >=0 && (int)selected.y < rows)
 				{
-					if (cubeUsing[(int)selected.x, (int)selected.y].Type.CompareTo("special_rabbit") != 0)
+					if (cubeUsing[(int)selected.x, (int)selected.y].Type.CompareTo("special_rabbit") != 0 
+						&& cubeUsing[(int)selected.x, (int)selected.y].Type.CompareTo("special_random") != 0)
 					{
 						selectedCubes.Add(selected);
 					}
@@ -514,6 +521,7 @@ public class Manager: MonoBehaviour {
 	{
 		foreach (Vector2 selected in selectedCubes)
 		{
+			Instantiate(destroyCubeEffect, cubeUsing[(int)selected.x, (int)selected.y].cubeObject.transform.position, Quaternion.identity);
 			Destroy(cubeUsing[(int)selected.x, (int)selected.y].CubeObject);
 			cubeUsing[(int)selected.x, (int)selected.y] = null;
 		}

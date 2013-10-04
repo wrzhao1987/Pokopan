@@ -5,6 +5,8 @@ Project("{AF2B4817-A5AE-A154-A208-CF9471FF90E9}") = "Poko", "Assembly-CSharp.csp
 EndProject
 Project("{AF2B4817-A5AE-A154-A208-CF9471FF90E9}") = "Poko", "Assembly-CSharp-Editor.csproj", "{EECED417-18D8-1F96-C3BA-17266EA9CB51}"
 EndProject
+Project("{AF2B4817-A5AE-A154-A208-CF9471FF90E9}") = "Poko", "Assembly-UnityScript-firstpass.unityproj", "{56A76261-1C17-BF09-FADB-73E11FABD99F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{EECED417-18D8-1F96-C3BA-17266EA9CB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EECED417-18D8-1F96-C3BA-17266EA9CB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EECED417-18D8-1F96-C3BA-17266EA9CB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56A76261-1C17-BF09-FADB-73E11FABD99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56A76261-1C17-BF09-FADB-73E11FABD99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56A76261-1C17-BF09-FADB-73E11FABD99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56A76261-1C17-BF09-FADB-73E11FABD99F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																														GlobalSection(MonoDevelopProperties) = preSolution
+																																																						GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

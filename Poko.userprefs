@@ -1,17 +1,28 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Manager.cs">
     <Files>
-      <File FileName="Assets/Scripts/Enemy.cs" Line="38" Column="3" />
-      <File FileName="Assets/Scripts/Rabbit.cs" Line="42" Column="8" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Rabbit.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Manager.cs" Line="524" Column="131" />
       <File FileName="Assets/Scripts/Bullet.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Manager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Score.cs" Line="98" Column="23" />
     </Files>
     <Pads>
       <Pad Id="ClassPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="Bullet" selected="True" />
+            <Node name="Manager" expanded="True">
+              <Node name="GenerateNewEnemy">
+                <Option id="ShowProjects" value="True" />
+                <Option id="NestedNamespaces" value="True" />
+                <Option id="PublicProtectedApiOnly" value="False" />
+                <Option id="PublicApiOnly" value="True" />
+                <Option id="GroupByType" value="True" />
+                <Option id="GroupByAccess" value="True" />
+              </Node>
+              <Node name="SpecialFire" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
