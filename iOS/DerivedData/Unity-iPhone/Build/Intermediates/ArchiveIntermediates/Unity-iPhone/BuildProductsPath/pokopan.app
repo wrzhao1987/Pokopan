@@ -1,0 +1,1 @@
+/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/ArchiveIntermediates/Unity-iPhone/InstallationBuildProductsLocation/Applications/pokopan.app

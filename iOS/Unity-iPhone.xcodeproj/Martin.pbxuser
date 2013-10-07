@@ -9,7 +9,6 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Release;
 		activeExecutable = 567678E6115A681D00007F8E /* Unity-iPhone */;
-activeSDKPreference = iphoneos;
 		activeSDKPreference = iphoneos;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Unity-iPhone */;
 		codeSenseManager = 56676AFB120B0C54008480E4 /* Code sense */;

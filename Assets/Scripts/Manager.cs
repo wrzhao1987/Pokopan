@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SocialPlatforms;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -17,7 +18,7 @@ public class Manager: MonoBehaviour {
 	private int score = 0;
 	static private int prepareScore = 0;
 	public float totalTime;
-	
+
 	private int columns = 7;
 	private int rows = 6;
 	
@@ -41,6 +42,8 @@ public class Manager: MonoBehaviour {
 	public GameObject destroyCubeEffect;
 	
 	public Camera gameCam;
+	
+	private bool scoreReported = false;
 	
 	public bool GameEnded
 	{
@@ -79,11 +82,11 @@ public class Manager: MonoBehaviour {
 	
 	void Start() 
 	{
+		gameEnded = false;
 		generateSpecialRabbit = true;
 		specialRabbitColumn = Random.Range(0, columns);
 		enemyPosition = GameObject.FindGameObjectWithTag("Enemy").transform.position;
 		rabbitPosition  = GameObject.FindGameObjectWithTag("Rabbit").transform.position;
-		
 		// GameObject.FindGameObjectWithTag("Rabbit").GetComponent<Rabbit>().RushToEnemy();
 		// GameObject.FindGameObjectWithTag("Bullet").GetComponent<Bullet>().SetDestination(enemyPosition);
 		StartCoroutine(MainLoop());
@@ -105,9 +108,49 @@ public class Manager: MonoBehaviour {
 			StartCoroutine(GenerateNewRabbit());
 			yield return null;
 		}
-		yield break;
+		if (! scoreReported)
+		{
+			GameCenterHandler.Instance.ReportScore("high_score", (long)score);
+			scoreReported = true;
+		}
+		if (gameEnded)
+		{
+			yield return new WaitForSeconds(3.0f);
+		}
+		else
+		{
+			yield break;
+		}		
 	}
-
+	
+	void OnGUI()
+	{
+			
+		if (gameEnded)
+		{
+			// 放大字体
+	        GUI.skin.label.fontSize = 50;
+	        // 显示游戏失败
+	        GUI.skin.label.alignment = TextAnchor.LowerCenter;
+	        GUI.Label(new Rect(0, Screen.height * 0.2f, Screen.width, 60), "Time Up");
+			GUI.Label(new Rect(0, Screen.height * 0.4f, Screen.width, 60), score.ToString());
+	
+	        GUI.skin.label.fontSize = 30;
+	
+	        // 显示按钮
+	        if (GUI.Button(new Rect(Screen.width * 0.5f - 50, Screen.height * 0.6f, 100, 30), "Try Again!"))
+	        {
+	            // 读取当前关卡
+	            Application.LoadLevel(Application.loadedLevelName);
+	        }
+			
+			if (GUI.Button(new Rect(Screen.width * 0.5f - 50, Screen.height * 0.8f, 100, 30), "Leaderboard"))
+	        {
+	            GameCenterHandler.Instance.ShowLeaderboard("high_score", TimeScope.AllTime);
+	        }
+		}
+		
+	}
 	private IEnumerator InitialCubes(int current_column) 
 	{
 		
@@ -228,6 +271,7 @@ public class Manager: MonoBehaviour {
 		// Rabbit reaches the bottom
 		if (cubeUsing[current_column, 0].Type.CompareTo("special_rabbit") == 0)
 		{
+			GameCenterHandler.Instance.ReportAchievement("super_rabbit", (double)100.0f);
 			GameObject rabbitObject = GameObject.FindGameObjectWithTag("Rabbit");
 			Rabbit rabbit = rabbitObject.GetComponent<Rabbit>();
 			rabbit.RushToEnemy();
@@ -269,6 +313,8 @@ public class Manager: MonoBehaviour {
 	{
 		if (gameEnded)
 		{
+			
+			
 			return;
 		}
 		if (Input.touchCount > 0) 
