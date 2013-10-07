@@ -7,8 +7,8 @@ cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platfo
 cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Default.png Default.png
 cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Icon.png Icon.png
 cPhaseScriptExecution Run\ Script /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh
-cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Default@2x.png Default@2x.png
 cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Default@2x.png Default@2x.png
 cCopyPNGFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Default-568h@2x.png Default-568h@2x.png
 cProcessPCH++ /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/PrecompiledHeaders/iPhone_target_Prefix-ggdiyeevjmjtxobaogqnfeeijqth/iPhone_target_Prefix.pch.pch Classes/iPhone_target_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH++ /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/PrecompiledHeaders/iPhone_target_Prefix-hhahoeeukzmitmhgestczvbgziph/iPhone_target_Prefix.pch.pch Classes/iPhone_target_Prefix.pch normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
@@ -77,6 +77,11 @@ c000000005249B1C500000000006278E0
 t1380561349
 s6453472
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c000000005249B1C400000000000D7720
+t1380561348
+s882464
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
 c000000005249B1C60000000000CF3600
 t1380561350
@@ -86,6 +91,11 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 c000000005249B1C50000000000632E40
 t1380561349
 s6499904
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000005249B1C6000000000079BFF0
+t1380561350
+s7978992
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c000000005249B1C500000000004D6390
@@ -116,6 +126,21 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Develope
 c000000005249B1C70000000000A8EAD0
 t1380561351
 s11070160
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/GameKit.framework/Frameworks/GameCenterFoundation.framework/GameCenterFoundation
+c000000005249B1C60000000000324C60
+t1380561350
+s3296352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/GameKit.framework/Frameworks/GameCenterUI.framework/GameCenterUI
+c000000005249B1C700000000005EB9B0
+t1380561351
+s6207920
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/GameKit.framework/Frameworks/LegacyGameKit.framework/LegacyGameKit
+c000000005249B1C60000000000054CA0
+t1380561350
+s347296
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/GameKit.framework/GameKit
 c000000005249B1C600000000000175F0
@@ -157,55 +182,285 @@ c000000005249B1C60000000000113650
 t1380561350
 s1128016
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c000000005249B1D20000000000387AD0
+t1380561362
+s3701456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+c000000005249B1D400000000000142B0
+t1380561364
+s82608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+c000000005249B1D6000000000001D2B0
+t1380561366
+s119472
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libiconv.2.dylib
 c000000005249B1D600000000002FDF60
 t1380561366
 s3137376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+c000000005249B1D6000000000054C820
+t1380561366
+s5556256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libstdc++.dylib
+c000000005249B1D6000000000021DCC0
+t1380561366
+s2219200
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+c000000005249B1D60000000000028490
+t1380561366
+s165008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+c000000005249B1D600000000000472B0
+t1380561366
+s291504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+c000000005249B1D6000000000003EB80
+t1380561366
+s256896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+c000000005249B1D6000000000002AEE0
+t1380561366
+s175840
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+c000000005249B1D600000000000E2F20
+t1380561366
+s929568
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+c000000005249B1D600000000000A1FC0
+t1380561366
+s663488
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+c000000005249B1D6000000000001D770
+t1380561366
+s120688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+c000000005249B1D6000000000000BF00
+t1380561366
+s48896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+c000000005249B1D60000000000034100
+t1380561366
+s213248
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+c000000005249B1D60000000000023D40
+t1380561366
+s146752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+c000000005249B1D6000000000001D1B0
+t1380561366
+s119216
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+c000000005249B1D60000000000051110
+t1380561366
+s332048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+c000000005249B1D60000000000017E90
+t1380561366
+s97936
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+c000000005249B1D700000000001BA370
+t1380561367
+s1811312
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+c000000005249B1D6000000000001EFF0
+t1380561366
+s126960
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+c000000005249B1D6000000000002FA40
+t1380561366
+s195136
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+c000000005249B1D6000000000008B3E0
+t1380561366
+s570336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+c000000005249B1D600000000000B60D0
+t1380561366
+s745680
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+c000000005249B1D60000000000078620
+t1380561366
+s493088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+c000000005249B1D60000000000060810
+t1380561366
+s395280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+c000000005249B1D700000000000B6B40
+t1380561367
+s748352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+c000000005249B1D60000000000039D00
+t1380561366
+s236800
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+c000000005249B1D6000000000003E940
+t1380561366
+s256320
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+c000000005249B1D6000000000002FC00
+t1380561366
+s195584
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+c000000005249B1D6000000000001D9D0
+t1380561366
+s121296
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+c000000005249B1D6000000000001EDE0
+t1380561366
+s126432
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+c000000005249B1D600000000000213C0
+t1380561366
+s136128
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+c000000005249B1D700000000000ADAC0
+t1380561367
+s711360
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+c000000005249B2050000000000015B84
+t1380561413
+s88964
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+c000000005249B2060000000000005004
+t1380561414
+s20484
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/CrashReporter.h
+c00000000521C69BC0000000000000306
+t1377593788
+s774
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/CrashReporter.mm
 c00000000521C69BC000000000000095A
 t1377593788
 s2394
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/PLCrashReporter.h
+c00000000521C69BC0000000000000E3B
+t1377593788
+s3643
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/RegisterClasses.cpp
 c00000000521C69BC0000000000000097
 t1377593788
 s151
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/RegisterClasses.h
+c00000000521C69BC00000000000000C0
+t1377593788
+s192
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/ActivityIndicator.h
+c00000000521C69BC00000000000001A7
+t1377593788
+s423
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/ActivityIndicator.mm
 c00000000521C69BC000000000000053D
 t1377593788
 s1341
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/Keyboard.h
+c00000000521C69BC0000000000000578
+t1377593788
+s1400
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/Keyboard.mm
 c00000000521C69BC0000000000002AC4
 t1377593788
 s10948
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/SplashScreen.h
+c00000000521C69BC00000000000001CF
+t1377593788
+s463
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/SplashScreen.mm
 c00000000521C69BC0000000000001BA0
 t1377593788
 s7072
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/UnityView.h
+c00000000521C69BC00000000000004C2
+t1377593788
+s1218
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/UnityView.mm
 c00000000521C69BC0000000000000DF7
 t1377593788
 s3575
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/UnityViewControllerBase.h
+c00000000521C69BC00000000000007E0
+t1377593788
+s2016
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/UnityViewControllerBase.mm
 c00000000521C69BC000000000000183E
 t1377593788
 s6206
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/VideoViewController.h
+c00000000521C69BC0000000000000145
+t1377593788
+s325
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/VideoViewController.mm
 c00000000521C69BC0000000000000446
 t1377593788
 s1094
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/CMVideoSampling.h
+c00000000521C69BC000000000000035D
+t1377593788
+s861
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/CMVideoSampling.mm
 c00000000521C69BC0000000000000B82
 t1377593788
 s2946
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/CVTextureCache.h
+c00000000521C69BC0000000000000274
+t1377593788
+s628
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/CVTextureCache.mm
 c00000000521C69BC0000000000000A4A
@@ -217,30 +472,75 @@ c00000000521C69BC0000000000000E9C
 t1377593788
 s3740
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/DisplayManager.h
+c00000000521C69BC0000000000000662
+t1377593788
+s1634
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/DisplayManager.mm
 c00000000521C69BC00000000000030E8
 t1377593788
 s12520
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/EAGLContextHelper.h
+c00000000521C69BC0000000000000298
+t1377593788
+s664
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/EAGLContextHelper.mm
 c00000000521C69BC0000000000000597
 t1377593788
 s1431
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/GLESHelper.h
+c00000000521C69BC000000000000098A
+t1377593788
+s2442
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/GlesHelper.h
+c00000000521C69BC000000000000098A
+t1377593788
+s2442
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/GlesHelper.mm
 c00000000521C69BC00000000000037FF
 t1377593788
 s14335
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/UnityInterface.h
+c00000000521C69BC0000000000000389
+t1377593788
+s905
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/VideoPlayer.h
+c00000000521C69BC00000000000003BC
+t1377593788
+s956
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/Unity/VideoPlayer.mm
 c00000000521C69BC0000000000002FE9
 t1377593788
 s12265
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UnityAppController.h
+c00000000521C69BC00000000000007A1
+t1377593788
+s1953
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UnityAppController.mm
 c00000000521C69BC0000000000003617
 t1377593788
 s13847
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_Common.h
+c00000000521C69BC0000000000000BE2
+t1377593788
+s3042
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_OrientationSupport.h
+c00000000521C69BC0000000000000340
+t1377593788
+s832
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_OrientationSupport.mm
 c00000000521C69BC0000000000000C8D
@@ -252,10 +552,25 @@ c00000000521C69BC0000000000003BF0
 t1377593788
 s15344
 
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_Profiler.h
+c00000000521C69BC00000000000003ED
+t1377593788
+s1005
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_Sensors.h
+c00000000521C69BC0000000000000326
+t1377593788
+s806
+
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_Sensors.mm
 c00000000521C69BC0000000000003269
 t1377593788
 s12905
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_View.h
+c00000000521C69BC00000000000002EC
+t1377593788
+s748
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/iPhone_View.mm
 c00000000521C69BC0000000000001661
@@ -422,12 +737,12 @@ t1381153881
 s275
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent
-t1381153888
+t1381154289
 s420
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app
-t1381153888
-s442
+t1381154289
+s476
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Default-568h@2x.png
 t1381153882
@@ -466,8 +781,8 @@ t1381153888
 s9599
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/pokopan
-t1381153888
-s41682000
+t1381153889
+s41895376
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Icon.png
 c000000005252AB3800000000000018BC
@@ -503,6 +818,11 @@ N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Libraries/RegisterMonoModules.cpp
 c000000005252AB36000000000004E753
 t1381149494
 s321363
+
+N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Libraries/RegisterMonoModules.h
+c00000000521C69BC00000000000000B5
+t1377593788
+s181
 
 N/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Libraries/System.Core.dll.s
 c000000005252AB350000000000374CA5
@@ -602,16 +922,17 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd7a176d9f302b841^3f57afd9f302b841^---0#1#1#--18"Check dependencies36"A661EE9B-FE06-4AB3-B7E5-639B16C20C1C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6c3ec670f502b841^5f610571f502b841^---0#1#1#--18"Check dependencies36"12F67A3D-5643-4728-8C48-D633ACB79331-
 
 CCodeSign /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app
-s402846688.397146
-e402846689.048024
+s402847089.159322
+e402847089.659972
 r1
 xCodeSign
 x/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.app60"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.app8bc365e0f302b841^d34b0ce1f302b841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/0000000000000000^1109"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.app    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Wenrui Zhao (4X5RKS8C3D)" and provisioning profile "iOS Team Provisioning Profile: com.martin-zhao.pokopan" (F67FD742-75A0-468E-BD0C-58E411422FFA)    codesign --force --sign E5E8F4CF26682FB98B8A0503EBCD4DB7E099C05A --resource-rules=/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/ResourceRules.plist --entitlements /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app36"3A437AB8-2856-4ADD-A1CF-B6AF8D2B9ABB-
-b1D4A4C4B-B95B-45E1-B17E-EC04E6C30A63
+o/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app: replacing existing signature
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.app60"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.appe3e22871f502b841^95f4a871f502b841^-128"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/0000000000000000^1109"CodeSign DerivedData/Unity-iPhone/Build/Products/pokopan.app    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Wenrui Zhao (4X5RKS8C3D)" and provisioning profile "iOS Team Provisioning Profile: com.martin-zhao.pokopan" (F67FD742-75A0-468E-BD0C-58E411422FFA)    codesign --force --sign E5E8F4CF26682FB98B8A0503EBCD4DB7E099C05A --resource-rules=/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/ResourceRules.plist --entitlements /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app36"28990622-D8B0-498F-BFF2-595D3A534A68-
+b6298C350-E6D6-4926-8778-17DA72552FE5
 
 CCompileC DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal/armv7/ActivityIndicator.o /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes/UI/ActivityIndicator.mm normal armv7 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
 s402846686.373150
@@ -1312,14 +1633,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /
 b1D4A4C4B-B95B-45E1-B17E-EC04E6C30A63
 
 CPhaseScriptExecution Run\ Script /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh
-s402846681.793639
-e402846681.898010
+s402847089.031283
+e402847089.121141
 r1
 xPhaseScriptExecution
 xRun Script
 x/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'165"PhaseScriptExecution Run\ Script DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh65e1cbd9f302b841^f7e4e5d9f302b841^---0#0#1#--22989"PhaseScriptExecution Run\ Script DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Martin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv BUILD_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv CACHE_ROOT /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CCHROOT /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LIBRARY libstdc++    setenv CLASS_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv CONFIGURATION_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH pokopan.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH pokopan.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Unity-iPhone.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME pokopan.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH pokopan.app/Executables    setenv EXECUTABLE_FOLDER_PATH pokopan.app    setenv EXECUTABLE_NAME pokopan    setenv EXECUTABLE_PATH pokopan.app/pokopan    setenv FILE_LIST /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH pokopan.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME pokopan.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Classes/iPhone_target_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_INDIRECT_FUNCTION_CALLS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/include \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes\" \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH pokopan.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH pokopan.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Unity-iPhone.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Martin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Unity-iPhone.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH pokopan.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal/armv7/pokopan_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products  \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS\" \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Libraries\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal/armv7/pokopan.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH pokopan.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal    setenv OBJROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS -mno-thumb    setenv OTHER_CPLUSPLUSFLAGS -mno-thumb    setenv OTHER_LDFLAGS "-weak_framework CoreMotion -weak-lSystem"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH pokopan.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/PkgInfo    setenv PKGINFO_PATH pokopan.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A465    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH pokopan.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH pokopan.app/PrivateHeaders    setenv PRODUCT_NAME pokopan    setenv PRODUCT_SETTINGS_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Unity-iPhone    setenv PROJECT_DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/DerivedSources    setenv PROJECT_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv PROJECT_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Unity-iPhone.xcodeproj    setenv PROJECT_NAME Unity-iPhone    setenv PROJECT_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build    setenv PROJECT_TEMP_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH pokopan.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH pokopan.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A465    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH pokopan.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH pokopan.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv SRCROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS iphoneos    setenv SYMROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME Unity-iPhone    setenv TARGET_BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv TARGET_NAME Unity-iPhone    setenv TARGET_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH pokopan.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Martin    setenv USER_APPS_DIR /Users/Martin/Applications    setenv USER_LIBRARY_DIR /Users/Martin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "arm64 armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH pokopan.app/version.plist    setenv VERSION_INFO_BUILDER Martin    setenv VERSION_INFO_FILE pokopan_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:pokopan  PROJECT:Unity-iPhone-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME pokopan.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A1413    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH pokopan.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh36"9072AEA3-57C2-4C8E-933E-21B0758A21D6-
-b1D4A4C4B-B95B-45E1-B17E-EC04E6C30A63
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'165"PhaseScriptExecution Run\ Script DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.shffb10871f502b841^c0031f71f502b841^---0#0#1#--22989"PhaseScriptExecution Run\ Script DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER Martin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv BUILD_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv CACHE_ROOT /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CCHROOT /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_CXX_LIBRARY libstdc++    setenv CLASS_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/6w/gjbz9wks6dv7qddlbzcclrnc0000gp/C/com.apple.DeveloperTools/5.0-5A1413/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv CONFIGURATION_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos    setenv CONTENTS_FOLDER_PATH pokopan.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH pokopan.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/Unity-iPhone.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME pokopan.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH pokopan.app/Executables    setenv EXECUTABLE_FOLDER_PATH pokopan.app    setenv EXECUTABLE_NAME pokopan    setenv EXECUTABLE_PATH pokopan.app/pokopan    setenv FILE_LIST /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH pokopan.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME pokopan.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_CPP_EXCEPTIONS NO    setenv GCC_ENABLE_CPP_RTTI NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER Classes/iPhone_target_Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_USE_INDIRECT_FUNCTION_CALLS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/include \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Classes\" \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH pokopan.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH pokopan.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/Unity-iPhone.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER Martin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/Unity-iPhone.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH pokopan.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal/armv7/pokopan_dependency_info.dat    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products  \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS\" \"/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Libraries\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal/armv7/pokopan.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH pokopan.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Objects-normal    setenv OBJROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS -mno-thumb    setenv OTHER_CPLUSPLUSFLAGS -mno-thumb    setenv OTHER_LDFLAGS "-weak_framework CoreMotion -weak-lSystem"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH pokopan.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS "c++ objective-c++"    setenv PKGINFO_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/PkgInfo    setenv PKGINFO_PATH pokopan.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11A465    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH pokopan.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH pokopan.app/PrivateHeaders    setenv PRODUCT_NAME pokopan    setenv PRODUCT_SETTINGS_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT Unity-iPhone    setenv PROJECT_DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/DerivedSources    setenv PROJECT_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv PROJECT_FILE_PATH /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Unity-iPhone.xcodeproj    setenv PROJECT_NAME Unity-iPhone    setenv PROJECT_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build    setenv PROJECT_TEMP_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH pokopan.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH pokopan.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11A465    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH pokopan.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/PrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH pokopan.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv SRCROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS iphoneos    setenv SYMROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME Unity-iPhone    setenv TARGET_BUILD_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products    setenv TARGET_NAME Unity-iPhone    setenv TARGET_TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_FILES_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_FILE_DIR /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build    setenv TEMP_ROOT /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH pokopan.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER Martin    setenv USER_APPS_DIR /Users/Martin/Applications    setenv USER_LIBRARY_DIR /Users/Martin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "arm64 armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH pokopan.app/version.plist    setenv VERSION_INFO_BUILDER Martin    setenv VERSION_INFO_FILE pokopan_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:pokopan  PROJECT:Unity-iPhone-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME pokopan.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A1413    setenv XCODE_VERSION_ACTUAL 0500    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH pokopan.app/XPCServices    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/Script-83D0C1FB0E6C8D5900EBCE5D.sh36"C31791D9-EF58-40BB-BE79-53A76EE2AD7A-
+b6298C350-E6D6-4926-8778-17DA72552FE5
 
 CProcessInfoPlistFile /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/Info.plist /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/Info.plist
 s402846681.690625
@@ -1368,14 +1689,14 @@ CProcessPCH++ /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iP
 r0
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent
-s402846688.385776
-e402846688.388651
+s402847089.148182
+e402847089.151222
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
 x/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection256"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent256"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcentb3d062e0f302b841^177f63e0f302b841^---0#0#1#-19%DVTDocumentLocation2@173"file://localhost/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent00382479deffdf42^842"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent36"2E615888-1190-47E5-907D-F715BEA0E332-
-b1D4A4C4B-B95B-45E1-B17E-EC04E6C30A63
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection256"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent256"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent47012671f502b841^f2b62671f502b841^---0#0#1#-19%DVTDocumentLocation2@173"file://localhost/Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent0000000000000000^842"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent    cd /Users/Martin/Desktop/UnityWorkspace/Poko/iOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Intermediates/Unity-iPhone.build/Debug-iphoneos/Unity-iPhone.build/pokopan.xcent36"12C4A559-93DF-4DC2-B724-28D266DA1FA3-
+b6298C350-E6D6-4926-8778-17DA72552FE5
 
 CProcessProductPackaging /Users/Martin/Library/MobileDevice/Provisioning\ Profiles/F67FD742-75A0-468E-BD0C-58E411422FFA.mobileprovision /Users/Martin/Desktop/UnityWorkspace/Poko/iOS/DerivedData/Unity-iPhone/Build/Products/pokopan.app/embedded.mobileprovision
 s402846688.360825
